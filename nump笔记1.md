@@ -1,5 +1,5 @@
-###Numpy笔记1
-####*1* np.indentity()
+### Numpy笔记1
+#### *1* np.indentity()
 ```python
 np.identity(n, dtype=None)
 ```
