@@ -1,4 +1,4 @@
-### Numpy笔记1
+### Numpy笔记1(常用函数)
 #### *1* np.indentity()
 ```python
 np.identity(n, dtype=None)
