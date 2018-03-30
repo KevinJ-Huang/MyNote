@@ -1,0 +1,14 @@
+# Install SougouPinYing
+# After download the deb
+sudo apt remove fcitx*
+sudo apt autoremove
+# Then click the deb and finish install
+
+# GPU Driver installation
+# find the proper version for your GPU (my GPU is GTX1060, select the version 384.98)
+# note that the disable security boot should be selected
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-384 nvidia-settings
+nvidia-smi
+
