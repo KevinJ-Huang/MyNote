@@ -72,5 +72,7 @@ sudo pip3 install opencv_python
 # install opencv interface for python
 sudo pip install opencv_python
 
-
-
+#Install Latex
+sudo apt-get install texlive-full  
+sudo apt-get install texmaker  #Ide,you can choose another
+sudo apt-get install latex-cjk-all
