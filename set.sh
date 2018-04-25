@@ -76,3 +76,7 @@ sudo pip install opencv_python
 sudo apt-get install texlive-full  
 sudo apt-get install texmaker  #Ide,you can choose another
 sudo apt-get install latex-cjk-all
+
+#install filezilla
+sudo apt-get install filezilla
+sudo apt-get install filezilla-locales
