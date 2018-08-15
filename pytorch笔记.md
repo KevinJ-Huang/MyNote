@@ -8,6 +8,7 @@ print a.numpy()
 ```
 
 #### pytorch扩展维度
-···python
+
+```python
 sig = torch.from_numpy(sig).float().unsqueeze(0)
 ```
