@@ -20,3 +20,8 @@ NVFLAGS = -DGOOGLE_CUDA=1 -x cu -Xcompiler -fPIC -I $(TF_INC) \
 ```
 D_GLIBCXX_USE_CXX11_ABI=0
 ```
+
+#### RuntimeError: Input type (CUDAByteTensor) and weight type (CUDAFloatTensor) should be the same
+```cmd
+根据错误信息，显然Input类型和模型的权重类型不一致，一个为Double一个为float,通过对输入数据Tensor(x)进行x.float()将输入数据和模型权重类型一致，或者将模型权重的类型转化为Double也可以解决问题
+```
