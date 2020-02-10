@@ -62,4 +62,14 @@
 
 31.指针指向字符串时，字符串是常量，存储在常量区，而指针存储在栈区，不能对其操作修改。
 
+32.vector初始化方式有四种：
+(1. vector<int> v(10); 表示创建size为10的vector,每个元素执行默认初始化；
+(2. vector<int> v(10,1);表示创建size为10的vector,每个元素初始化为1；
+(3. vector<int> v{1,2,3,4};表示创建size为4的vector，元素的值分别为1,2,3,4。 
+(4. vector<int> v;  表示创建size为0的vector；
+
+33.[X+Y]补=[X]补+[Y]补
+
+34.如果表达式包含signed和unsigned int，signed会被转换为unsigned。如果int 操作数的值恰为负数，其转换为unsigned int可能会变为一个很大的正数（转换结果是该负值对unsigned int的取值个数求模）。
+
 ```
