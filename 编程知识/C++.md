@@ -72,4 +72,7 @@
 
 34.如果表达式包含signed和unsigned int，signed会被转换为unsigned。如果int 操作数的值恰为负数，其转换为unsigned int可能会变为一个很大的正数（转换结果是该负值对unsigned int的取值个数求模）。
 
+35.fscanf()作用是从文件流中读取数据，fprintf()是将数据写入到文件
+
+36.
 ```
