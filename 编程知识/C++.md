@@ -79,4 +79,6 @@ const出现在*右边，如char* const p，表示p是个常量指针，即不能
 const出现在*左边和右边，如const char* const p，表示p的指向不能改变，指向的变量内容也不能改变。
 
 37.Scale-wise Convolution for Image Restoration
+
+38.拷贝构造函数形参是引用数据类型
 ```
