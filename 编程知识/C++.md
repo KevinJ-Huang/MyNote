@@ -81,4 +81,6 @@ const出现在*左边和右边，如const char* const p，表示p的指向不能
 37.Scale-wise Convolution for Image Restoration
 
 38.拷贝构造函数形参是引用数据类型
+
+39.构造函数不能声明为虚函数，析构函数可以声明为虚函数，而且有时是必须声明为虚函数。
 ```
